@@ -1,0 +1,67 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+*.egg
+
+# === Node / Frontend ===
+node_modules/
+dist/
+build/
+.vite/
+*.local
+.eslintcache
+
+# === Environment / secrets ===
+.env
+.env.local
+.env.*.local
+
+# === Databases ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === Edge runtime artifacts ===
+edge/offline_buffer.db
+edge/evidence/*
+!edge/evidence/.gitkeep
+
+# === Large media ===
+edge/data/*.mp4
+edge/data/*.avi
+edge/data/*.webm
+edge/data/*.mov
+edge/data/*.mkv
+!edge/data/.gitkeep
+
+# === Trained models ===
+!edge/models/README.md
+
+# === Backend runtime ===
+backend/evidence/*
+!backend/evidence/.gitkeep
+backend/urban_intelligence.db
+
+# === YOLO training runs ===
+runs/
+*.pt.tmp
+*.cache
+
+# === IDE / OS ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Logs ===
+*.log
+logs/

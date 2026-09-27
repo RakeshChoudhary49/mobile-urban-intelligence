@@ -1,0 +1,6 @@
+ultralytics
+supervision
+paddleocr
+opencv-python
+requests
+numpy

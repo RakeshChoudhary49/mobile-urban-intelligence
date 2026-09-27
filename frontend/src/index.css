@@ -1,0 +1,2 @@
+@import "tailwindcss";
+:root{font-family:Inter,system-ui,sans-serif;background:#0b1220;color:#e5e7eb} body{margin:0;min-width:320px;min-height:100vh}*{box-sizing:border-box}.leaflet-container{width:100%;height:100%}

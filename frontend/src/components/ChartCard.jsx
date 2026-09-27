@@ -1,0 +1,1 @@
+export default function ChartCard({title,children}){return <section className="rounded-xl border border-slate-800 bg-slate-900 p-4"><h2 className="mb-4 text-base font-semibold">{title}</h2><div className="h-72">{children}</div></section>}
