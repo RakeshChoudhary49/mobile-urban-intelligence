@@ -12,10 +12,9 @@ def main():
     parser.add_argument("--save-output", action="store_true", help="Save annotated video output")
     
     args = parser.parse_args()
-
-    # Update config overrides
+    # API_URL and args.api_url:
     config.BUS_CODE = args.bus_code
-    config.API_BASE = args.API_BASE
+    config.API_URL = args.api_url
 
     if not os.path.exists(args.video):
         print(f"Error: Video file not found at {args.video}")
