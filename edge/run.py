@@ -15,7 +15,7 @@ def main():
 
     # Update config overrides
     config.BUS_CODE = args.bus_code
-    config.API_URL = args.api_url
+    config.API_BASE = args.API_BASE
 
     if not os.path.exists(args.video):
         print(f"Error: Video file not found at {args.video}")
